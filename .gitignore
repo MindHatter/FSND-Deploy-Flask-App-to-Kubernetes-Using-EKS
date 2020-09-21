@@ -4,6 +4,7 @@
 *.pyc
 *.pyo
 env/
+venv/
 env*
 dist/
 build/
@@ -17,6 +18,10 @@ _mailinglist
 docs/_build/
 __pycache__
 .env_file
+.vscode
+.token
+.creds
+aws-auth-patch.yml
 
 # Coverage reports
 htmlcov/
